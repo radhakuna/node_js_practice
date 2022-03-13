@@ -15,3 +15,10 @@ Chapter 2:
 
 Chapter :
             npm init -y  ( creates packet.json)
+            npm install bootstrap
+            add .gitignore file outside of node_modules
+            edit .gitignore file ( add --  /node_modules)
+            push to git
+            clone from git
+            run npm install ( that cretes node modules )
+            run npm i nodemon -D ( to install as dev dependency)

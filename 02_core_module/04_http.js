@@ -7,7 +7,8 @@ const server = http.createServer((req, res) => {
         res.end('Namste Vinayaa !! Welcom to Heaven !!')
     } else if (req.url === '/about') {
         res.end('Gods live in heaven. SriRama, sita, Vishnu, Lakshmi, Shiva, Parvthi, Brahma, Saraswathi')
+    } else {
+        res.end('No gateway to enter in other evenly parts')
     }
-    res.end('No gateway to enter in other evenly parts')
 })
 server.listen(5000)
