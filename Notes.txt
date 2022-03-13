@@ -1,0 +1,17 @@
+
+
+Chapter 2:
+            core modules:
+                OS
+                PATH
+                FS
+                HTTP
+
+                    FS
+                        sync -- if 1000's of users read write files same time, it would be very very slow
+                        aync -- read and write functionlity performed offline and gives next user a chance
+
+
+
+Chapter :
+            npm init -y  ( creates packet.json)
